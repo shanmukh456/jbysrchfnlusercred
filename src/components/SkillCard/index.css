@@ -1,0 +1,28 @@
+.skill-image {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+}
+.skill-name {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 576px) {
+  .skill-image {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.skills-item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100px;
+}
